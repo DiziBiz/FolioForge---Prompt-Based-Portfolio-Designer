@@ -1,12 +1,90 @@
-# React + Vite
+# FolioForge — Prompt-Based Portfolio Designer
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+> Use AI-driven prompts to design and generate a personalized portfolio website quickly.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## About
 
-## Expanding the ESLint configuration
+FolioForge is a prompt-based portfolio designer that allows users to generate, customize, and deploy portfolio websites using natural language prompts. It streamlines the workflow, offering templates, live preview, and responsive design so creators can focus on content rather than setup.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## Features
+
+- Create portfolio layouts based on user-supplied prompts  
+- Predefined templates / style presets  
+- Live preview in browser  
+- Responsive design (mobile, tablet, desktop)  
+- Uses modern frontend tooling (Vite, React, Tailwind CSS, etc.)  
+- Easy to build, deploy, and host  
+
+---
+
+
+
+## Tech Stack
+
+| Layer        | Technology / Tooling                                |
+|---------------|------------------------------------------------------|
+| Frontend      | React, Vite                                         |
+| Styling       | Tailwind CSS                                        |
+| Tooling       | ESLint, PostCSS, Vite config                       |
+| Build / Deploy | Static site build / possible hosting on Netlify, Vercel, GitHub Pages |
+
+---
+
+## Getting Started
+
+### Prerequisites
+
+- Node.js (v14 or higher recommended)  
+- npm or yarn  
+
+### Installation
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/DiziBiz/FolioForge---Prompt-Based-Portfolio-Designer.git
+   cd FolioForge---Prompt-Based-Portfolio-Designer
+   
+2.Install dependencies:
+
+npm install
+# or
+yarn install
+Development
+
+To start a development server with live reload:
+
+npm run dev
+# or
+yarn dev
+
+
+Open http://localhost:3000
+ (or the port shown in console) to see it in action.
+
+Build & Production
+
+To build for production:
+
+npm run build
+# or
+yarn build
+
+
+Then serve the dist/ folder using any static file server or deploy to a platform like Netlify, Vercel, GitHub Pages, etc.
+
+Usage
+Open the app in browser.
+
+Enter a prompt describing what you want your portfolio to look like — e.g. layout style, sections, color scheme, fonts, etc.
+
+Choose any template/style preset if available.
+
+Preview the generated design.
+
+Make edits/customization as needed.
+
+Export / deploy the portfolio.
